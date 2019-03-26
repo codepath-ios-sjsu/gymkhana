@@ -1,7 +1,7 @@
 Group Project
 ===
 
-# GymKhana
+# GymKhana :basketball: :swimmer: :muscle:
 
 ## Table of Contents
 1. [Overview](#Overview)
