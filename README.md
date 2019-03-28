@@ -44,9 +44,11 @@ GymKhana is iOS mobile application which publish crowd-sourced reviews about gym
 ### 2. Screen Archetypes
 
 * [list first screen here]
+  https://i.imgur.com/g5efuWg.jpg
    * [list associated required story here]
    * ...
 * [list second screen here]
+https://i.imgur.com/pEqo1ao.jpg
    * [list associated required story here]
    * ...
 
