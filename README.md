@@ -11,10 +11,9 @@ Group Project
 
 ## Overview
 ### Description
-GymKhana is iOS mobile application which publish crowd-sourced reviews about gyms as well as online reservation service for gyms for limited days.
+GymKhana is an iOS mobile application which publishes crowd-sourced reviews about gyms as well as online reservation service for gyms for limited days.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:**
 - **Mobile:**
 - **Story:**
@@ -28,11 +27,11 @@ GymKhana is iOS mobile application which publish crowd-sourced reviews about gym
 
 **Required Must-have Stories**
 
-- [ ] User sees the launch screen with Google Map View
-- [ ] User sees the nearby Gyms with marker
-- [ ] User can search the locations and near by gyms to respective location
-- [ ] User sees the detailed description of the services
-- [ ] User sees login screen when needs to book
+- [ ] User can see the launch screen with Google Map View
+- [ ] User can see the nearby Gyms with marker
+- [ ] User can search the gyms in respective location using search bar
+- [ ] User can see the detailed description of the gym services
+- [ ] User can see login screen when needs to book gym sevices
 - [ ] User successfully logins
 - [ ] Booking success
 
@@ -51,33 +50,19 @@ GymKhana is iOS mobile application which publish crowd-sourced reviews about gym
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
-
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+__TODO__
 
 **Flow Navigation** (Screen to Screen)
-
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+__TODO__
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
+__TODO__
 
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
 [Add table of models]
-### Networking
+### 4. Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
