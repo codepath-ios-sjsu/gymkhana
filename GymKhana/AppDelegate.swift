@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         GMSServices.provideAPIKey("AIzaSyD-0Ig_U5Z7tb8ruf1QzmJmLiptNtsb8GU")
         GMSPlacesClient.provideAPIKey("AIzaSyD-0Ig_U5Z7tb8ruf1QzmJmLiptNtsb8GU")
-        
+    
         self.window = UIWindow(frame: UIScreen.main.bounds)
         if let window = self.window {
             window.backgroundColor = UIColor.white

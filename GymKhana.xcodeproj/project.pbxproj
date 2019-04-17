@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1B5AAB25C2EB59DE934F5F /* Pods_GymKhana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7569A5F4D78B124BE88A85 /* Pods_GymKhana.framework */; };
+		4BDFA73B2267F44E008130B8 /* CustomerMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDFA73A2267F44E008130B8 /* CustomerMarkerView.swift */; };
 		7BAF35EE224EEE57001FB592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF35ED224EEE57001FB592 /* AppDelegate.swift */; };
 		7BAF35F0224EEE57001FB592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF35EF224EEE57001FB592 /* ViewController.swift */; };
 		7BAF35F3224EEE57001FB592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAF35F1224EEE57001FB592 /* Main.storyboard */; };
@@ -15,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		409B503349645EEA5460F786 /* Pods-GymKhana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymKhana.release.xcconfig"; path = "Pods/Target Support Files/Pods-GymKhana/Pods-GymKhana.release.xcconfig"; sourceTree = "<group>"; };
+		4B7569A5F4D78B124BE88A85 /* Pods_GymKhana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymKhana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BDFA73A2267F44E008130B8 /* CustomerMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMarkerView.swift; sourceTree = "<group>"; };
+		669F9A77BA58EE9F35372FF9 /* Pods-GymKhana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymKhana.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GymKhana/Pods-GymKhana.debug.xcconfig"; sourceTree = "<group>"; };
 		7BAF35EA224EEE57001FB592 /* GymKhana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymKhana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAF35ED224EEE57001FB592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BAF35EF224EEE57001FB592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D1B5AAB25C2EB59DE934F5F /* Pods_GymKhana.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AF548792543AF7B3B72F1AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B7569A5F4D78B124BE88A85 /* Pods_GymKhana.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43FB909045CD12D6074D9FC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				669F9A77BA58EE9F35372FF9 /* Pods-GymKhana.debug.xcconfig */,
+				409B503349645EEA5460F786 /* Pods-GymKhana.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7BAF35E1224EEE57001FB592 = {
 			isa = PBXGroup;
 			children = (
 				7BAF35EC224EEE57001FB592 /* GymKhana */,
 				7BAF35EB224EEE57001FB592 /* Products */,
+				43FB909045CD12D6074D9FC5 /* Pods */,
+				1AF548792543AF7B3B72F1AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				7BAF35ED224EEE57001FB592 /* AppDelegate.swift */,
+				4BDFA73A2267F44E008130B8 /* CustomerMarkerView.swift */,
 				7BAF35EF224EEE57001FB592 /* ViewController.swift */,
 				7BAF35F1224EEE57001FB592 /* Main.storyboard */,
 				7BAF35F4224EEE59001FB592 /* Assets.xcassets */,
@@ -71,6 +98,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BAF35FC224EEE59001FB592 /* Build configuration list for PBXNativeTarget "GymKhana" */;
 			buildPhases = (
+				D3F0F0D30382CA5066EFE764 /* [CP] Check Pods Manifest.lock */,
 				7BAF35E6224EEE57001FB592 /* Sources */,
 				7BAF35E7224EEE57001FB592 /* Frameworks */,
 				7BAF35E8224EEE57001FB592 /* Resources */,
@@ -130,6 +158,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D3F0F0D30382CA5066EFE764 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymKhana-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7BAF35E6224EEE57001FB592 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +190,7 @@
 			files = (
 				7BAF35F0224EEE57001FB592 /* ViewController.swift in Sources */,
 				7BAF35EE224EEE57001FB592 /* AppDelegate.swift in Sources */,
+				4BDFA73B2267F44E008130B8 /* CustomerMarkerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +334,7 @@
 		};
 		7BAF35FD224EEE59001FB592 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669F9A77BA58EE9F35372FF9 /* Pods-GymKhana.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +352,7 @@
 		};
 		7BAF35FE224EEE59001FB592 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409B503349645EEA5460F786 /* Pods-GymKhana.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
