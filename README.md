@@ -62,7 +62,7 @@ __TODO__
 [This section will be completed in Unit 9]
 ### Models
 [Add table of models]
-### 4. Networking
+## Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
