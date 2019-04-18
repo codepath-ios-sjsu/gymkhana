@@ -1,0 +1,6 @@
+framework module Pods_GymKhana {
+  umbrella header "Pods-GymKhana-umbrella.h"
+
+  export *
+  module * { export * }
+}
