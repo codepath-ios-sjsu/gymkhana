@@ -7,4 +7,8 @@ target 'GymKhana' do
 
   # Pods for GymKhana
 
+    pod 'GooglePlaces'
+    pod 'GooglePlacePicker'
+    pod 'GoogleMaps'
+
 end

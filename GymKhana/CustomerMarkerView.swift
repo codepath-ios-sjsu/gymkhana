@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-// code@ Divya Sood
 
 class CustomMarkerView: UIView {
     var img: UIImage
