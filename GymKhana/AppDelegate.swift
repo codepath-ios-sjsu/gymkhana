@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import GoogleMaps
-import GooglePlaces
-
+//import GoogleMaps
+//import GooglePlaces
+import Parse
 
 
 @UIApplicationMain
@@ -19,7 +19,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        Parse.initialize(
+            with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = "gymkhana"
+                configuration.server = "https://ancient-wildwood-40965.herokuapp.com/parse"
+            })
+        )
+        
+        
         // Override point for customization after application launch.
+        /*
         GMSService.provideAPIKey("AIzaSyD-0Ig_U5Z7tb8ruf1QzmJmLiptNtsb8GU")
         GMSPlacesClient.provideAPIKey("AIzaSyD-0Ig_U5Z7tb8ruf1QzmJmLiptNtsb8GU")
     
@@ -33,6 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window.rootViewController = nav
             window.makeKeyAndVisible()
         }
+ */
         return true
     }
 

@@ -6,5 +6,7 @@ target 'GymKhana' do
   use_frameworks!
 
   # Pods for GymKhana
-
+   pod "Parse"
+   pod "AlamofireImage"
+	
 end
