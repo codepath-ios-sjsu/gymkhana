@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		1D1B5AAB25C2EB59DE934F5F /* Pods_GymKhana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7569A5F4D78B124BE88A85 /* Pods_GymKhana.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		4B9B247D22745A94003D21A3 /* GymPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDFA73C226BF7A1008130B8 /* GymPreviewView.swift */; };
+		4B9B247F22745DA8003D21A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9B247E22745DA8003D21A3 /* Assets.xcassets */; };
+		4B9B248122746082003D21A3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9B248022746082003D21A3 /* MainStoryboard.storyboard */; };
 		4BDFA73B2267F44E008130B8 /* CustomerMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDFA73A2267F44E008130B8 /* CustomerMarkerView.swift */; };
-		4BDFA73D226BF7A1008130B8 /* GymPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDFA73C226BF7A1008130B8 /* GymPreviewView.swift */; };
-		4BDFA73F2272D88B008130B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDFA73E2272D88B008130B8 /* Main.storyboard */; };
 		7BAF35EE224EEE57001FB592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF35ED224EEE57001FB592 /* AppDelegate.swift */; };
 		7BAF35F0224EEE57001FB592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF35EF224EEE57001FB592 /* ViewController.swift */; };
-		7BAF35F5224EEE59001FB592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAF35F4224EEE59001FB592 /* Assets.xcassets */; };
 		7BAF35F8224EEE59001FB592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAF35F6224EEE59001FB592 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		409B503349645EEA5460F786 /* Pods-GymKhana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymKhana.release.xcconfig"; path = "Pods/Target Support Files/Pods-GymKhana/Pods-GymKhana.release.xcconfig"; sourceTree = "<group>"; };
 		4B7569A5F4D78B124BE88A85 /* Pods_GymKhana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymKhana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B9B247E22745DA8003D21A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		4B9B248022746082003D21A3 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4BDFA73A2267F44E008130B8 /* CustomerMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMarkerView.swift; sourceTree = "<group>"; };
-		4BDFA73C226BF7A1008130B8 /* GymPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GymPreviewView.swift; path = GymKhana/GymPreviewView.swift; sourceTree = SOURCE_ROOT; };
-		4BDFA73E2272D88B008130B8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4BDFA73C226BF7A1008130B8 /* GymPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymPreviewView.swift; sourceTree = "<group>"; };
 		669F9A77BA58EE9F35372FF9 /* Pods-GymKhana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymKhana.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GymKhana/Pods-GymKhana.debug.xcconfig"; sourceTree = "<group>"; };
 		7BAF35EA224EEE57001FB592 /* GymKhana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymKhana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAF35ED224EEE57001FB592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BAF35EF224EEE57001FB592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7BAF35F4224EEE59001FB592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BAF35F7224EEE59001FB592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BAF35F9224EEE59001FB592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,10 +86,10 @@
 				4BDFA73A2267F44E008130B8 /* CustomerMarkerView.swift */,
 				4BDFA73C226BF7A1008130B8 /* GymPreviewView.swift */,
 				7BAF35EF224EEE57001FB592 /* ViewController.swift */,
-				7BAF35F4224EEE59001FB592 /* Assets.xcassets */,
 				7BAF35F6224EEE59001FB592 /* LaunchScreen.storyboard */,
-				4BDFA73E2272D88B008130B8 /* Main.storyboard */,
 				7BAF35F9224EEE59001FB592 /* Info.plist */,
+				4B9B247E22745DA8003D21A3 /* Assets.xcassets */,
+				4B9B248022746082003D21A3 /* MainStoryboard.storyboard */,
 			);
 			path = GymKhana;
 			sourceTree = "<group>";
@@ -154,9 +154,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BDFA73F2272D88B008130B8 /* Main.storyboard in Resources */,
+				4B9B248122746082003D21A3 /* MainStoryboard.storyboard in Resources */,
+				4B9B247F22745DA8003D21A3 /* Assets.xcassets in Resources */,
 				7BAF35F8224EEE59001FB592 /* LaunchScreen.storyboard in Resources */,
-				7BAF35F5224EEE59001FB592 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BAF35F0224EEE57001FB592 /* ViewController.swift in Sources */,
-				4BDFA73D226BF7A1008130B8 /* GymPreviewView.swift in Sources */,
+				4B9B247D22745A94003D21A3 /* GymPreviewView.swift in Sources */,
 				7BAF35EE224EEE57001FB592 /* AppDelegate.swift in Sources */,
 				4BDFA73B2267F44E008130B8 /* CustomerMarkerView.swift in Sources */,
 			);
@@ -361,7 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3ZHX9Z9M7D;
 				INFOPLIST_FILE = GymKhana/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -381,7 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3ZHX9Z9M7D;
 				INFOPLIST_FILE = GymKhana/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (

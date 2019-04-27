@@ -62,7 +62,7 @@ class GymPreviewView: UIView {
     
     let imgView: UIImageView = {
         let v=UIImageView()
-        v.image =
+        v.image=#imageLiteral(resourceName: "Image2")
         v.translatesAutoresizingMaskIntoConstraints=false
         return v
     }()
