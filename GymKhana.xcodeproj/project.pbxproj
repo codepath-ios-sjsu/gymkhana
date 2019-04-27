@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		1D1B5AAB25C2EB59DE934F5F /* Pods_GymKhana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7569A5F4D78B124BE88A85 /* Pods_GymKhana.framework */; };
 		4BDFA73B2267F44E008130B8 /* CustomerMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDFA73A2267F44E008130B8 /* CustomerMarkerView.swift */; };
+		6FA0AD872274221700FBD439 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0AD862274221700FBD439 /* LoginViewController.swift */; };
+		6FA0AD892274224400FBD439 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0AD882274224400FBD439 /* PaymentViewController.swift */; };
 		7BAF35EE224EEE57001FB592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF35ED224EEE57001FB592 /* AppDelegate.swift */; };
-		7BAF35F0224EEE57001FB592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAF35EF224EEE57001FB592 /* ViewController.swift */; };
 		7BAF35F3224EEE57001FB592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAF35F1224EEE57001FB592 /* Main.storyboard */; };
 		7BAF35F5224EEE59001FB592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAF35F4224EEE59001FB592 /* Assets.xcassets */; };
 		7BAF35F8224EEE59001FB592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAF35F6224EEE59001FB592 /* LaunchScreen.storyboard */; };
@@ -21,9 +22,10 @@
 		4B7569A5F4D78B124BE88A85 /* Pods_GymKhana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymKhana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDFA73A2267F44E008130B8 /* CustomerMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMarkerView.swift; sourceTree = "<group>"; };
 		669F9A77BA58EE9F35372FF9 /* Pods-GymKhana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymKhana.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GymKhana/Pods-GymKhana.debug.xcconfig"; sourceTree = "<group>"; };
+		6FA0AD862274221700FBD439 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6FA0AD882274224400FBD439 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		7BAF35EA224EEE57001FB592 /* GymKhana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymKhana.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BAF35ED224EEE57001FB592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BAF35EF224EEE57001FB592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7BAF35F2224EEE57001FB592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BAF35F4224EEE59001FB592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BAF35F7224EEE59001FB592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,11 +84,12 @@
 			children = (
 				7BAF35ED224EEE57001FB592 /* AppDelegate.swift */,
 				4BDFA73A2267F44E008130B8 /* CustomerMarkerView.swift */,
-				7BAF35EF224EEE57001FB592 /* ViewController.swift */,
 				7BAF35F1224EEE57001FB592 /* Main.storyboard */,
 				7BAF35F4224EEE59001FB592 /* Assets.xcassets */,
 				7BAF35F6224EEE59001FB592 /* LaunchScreen.storyboard */,
 				7BAF35F9224EEE59001FB592 /* Info.plist */,
+				6FA0AD862274221700FBD439 /* LoginViewController.swift */,
+				6FA0AD882274224400FBD439 /* PaymentViewController.swift */,
 			);
 			path = GymKhana;
 			sourceTree = "<group>";
@@ -102,6 +105,7 @@
 				7BAF35E6224EEE57001FB592 /* Sources */,
 				7BAF35E7224EEE57001FB592 /* Frameworks */,
 				7BAF35E8224EEE57001FB592 /* Resources */,
+				F9893CF7CB90EBE3FB9BC137 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,6 +185,34 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F9893CF7CB90EBE3FB9BC137 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GymKhana/Pods-GymKhana-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GymKhana/Pods-GymKhana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -188,9 +220,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BAF35F0224EEE57001FB592 /* ViewController.swift in Sources */,
+				6FA0AD872274221700FBD439 /* LoginViewController.swift in Sources */,
 				7BAF35EE224EEE57001FB592 /* AppDelegate.swift in Sources */,
 				4BDFA73B2267F44E008130B8 /* CustomerMarkerView.swift in Sources */,
+				6FA0AD892274224400FBD439 /* PaymentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
