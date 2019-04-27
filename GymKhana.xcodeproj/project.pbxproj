@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D1B5AAB25C2EB59DE934F5F /* Pods_GymKhana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7569A5F4D78B124BE88A85 /* Pods_GymKhana.framework */; };
+		1D1B5AAB25C2EB59DE934F5F /* Pods_GymKhana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7569A5F4D78B124BE88A85 /* Pods_GymKhana.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		4BDFA73B2267F44E008130B8 /* CustomerMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDFA73A2267F44E008130B8 /* CustomerMarkerView.swift */; };
 		4BDFA73D226BF7A1008130B8 /* GymPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDFA73C226BF7A1008130B8 /* GymPreviewView.swift */; };
 		4BDFA73F2272D88B008130B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BDFA73E2272D88B008130B8 /* Main.storyboard */; };
@@ -370,7 +370,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.GymKhana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -390,7 +390,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.GymKhana;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
