@@ -21,7 +21,7 @@
 		409B503349645EEA5460F786 /* Pods-GymKhana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymKhana.release.xcconfig"; path = "Pods/Target Support Files/Pods-GymKhana/Pods-GymKhana.release.xcconfig"; sourceTree = "<group>"; };
 		4B7569A5F4D78B124BE88A85 /* Pods_GymKhana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymKhana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BDFA73A2267F44E008130B8 /* CustomerMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMarkerView.swift; sourceTree = "<group>"; };
-		4BDFA73C226BF7A1008130B8 /* GymPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymPreviewView.swift; sourceTree = "<group>"; };
+		4BDFA73C226BF7A1008130B8 /* GymPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GymPreviewView.swift; path = GymKhana/GymPreviewView.swift; sourceTree = SOURCE_ROOT; };
 		4BDFA73E2272D88B008130B8 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		669F9A77BA58EE9F35372FF9 /* Pods-GymKhana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymKhana.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GymKhana/Pods-GymKhana.debug.xcconfig"; sourceTree = "<group>"; };
 		7BAF35EA224EEE57001FB592 /* GymKhana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymKhana.app; sourceTree = BUILT_PRODUCTS_DIR; };
