@@ -18,11 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7dc0a6b7-1bb8-481b-8527-c846549c890f" highlightedImage="GymKhana" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rNp-rP-w3f">
-                                <rect key="frame" x="16" y="102" width="343" height="452"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="7dc0a6b7-1bb8-481b-8527-c846549c890f" translatesAutoresizingMaskIntoConstraints="NO" id="72P-Bw-dZg">
+                                <rect key="frame" x="48" y="150" width="284" height="334"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -38,6 +36,5 @@
     </scenes>
     <resources>
         <image name="7dc0a6b7-1bb8-481b-8527-c846549c890f" width="200" height="200"/>
-        <image name="GymKhana" width="418" height="282"/>
     </resources>
 </document>
